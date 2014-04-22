@@ -1,5 +1,5 @@
-name = Standard
-description = Install with commonly used features pre-configured.
+name = @rokr d7profile
+description = slightly different settings based on "Standard" profile
 version = VERSION
 core = 7.x
 dependencies[] = block
