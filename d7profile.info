@@ -1,5 +1,5 @@
 name = @rokr d7profile
-description = slightly different settings based on "Standard" profile
+description = Slightly different settings based on "Standard" profile.
 version = VERSION
 core = 7.x
 dependencies[] = block
