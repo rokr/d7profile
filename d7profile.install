@@ -69,8 +69,8 @@ function d7profile_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'responsive_bartik');
-  $admin_theme = 'shiny';
+  $default_theme = variable_get('theme_default', 'bartik');
+  $admin_theme = 'seven';
   $blocks = array(
     array(
       'module' => 'system',
@@ -217,7 +217,7 @@ function d7profile_install() {
     rdf_mapping_save($rdf_mapping);
   }
 
-  // Default "Basic page" to not be promoted and have comments disabled.
+  // Default "Basic page" to not be promoted.
   variable_set('node_options_page', array('status'));
 
   // Don't display date and author information for "Basic page" nodes by default.
@@ -386,4 +386,5 @@ function d7profile_install() {
     ->execute();
   variable_set('admin_theme', 'shiny');
   variable_set('node_admin_theme', '1');
+  variable_set('theme_default', 'responsive_bartik');
 }
