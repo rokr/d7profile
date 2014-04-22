@@ -22,7 +22,7 @@ function d7profile_form_install_configure_form_alter(&$form, $form_state) {
 if (!function_exists("system_form_install_select_profile_form_alter")) {
   function system_form_install_select_profile_form_alter(&$form, $form_state) {
     foreach ($form['profile'] as $key => $element) {
-      $form['profile'][$key]['#value'] = 'd7profile;
+      $form['profile'][$key]['#value'] = 'd7profile';
     }
   }
 }
