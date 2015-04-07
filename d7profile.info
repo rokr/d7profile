@@ -18,5 +18,5 @@ dependencies[] = file
 dependencies[] = rdf
 
 dependencies[] = admin_menu
-dependencies[] = adminimal_admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = jquery_update
